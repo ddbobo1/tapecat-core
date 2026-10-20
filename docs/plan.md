@@ -1,4 +1,4 @@
-# tapecat meme-token issuance plan (BNB Chain · BEM raise · two-pool launch)
+# tapecat tape-out issuance plan (BNB Chain · BEM raise · two-pool launch)
 
 > Version v0.11 · 2026-10-19 (UTC+8) · drafted for the tapecat project team
 > This document is not legal, tax, or investment advice. On-chain figures are a snapshot from the 2026-10-18 query. Re-check them before deploy.
@@ -461,7 +461,7 @@ After `launch`, personal referrers and `officialReferrer` both call `claimRebate
 The live site keeps its Chinese product copy in `web/components`. This is the English statement of that disclosure.
 
 > **Risk Disclosure**
-> tapecat is a meme token with no utility and no promise of value or returns. By participating you acknowledge:
+> tapecat is an experimental token with no promised utility, value, or returns. By participating you acknowledge:
 > 1. **Transaction tax**: every buy and sell between tapecat and the official liquidity pairs carries a **1%** tax. The rate is hard-coded and cannot be changed. Tax is paid in tapecat to a published tax-receiver address, which the project multisig may change.
 > 2. **Pricing rule, not a return promise**: the opening price is set at 2× the participants' average cost purely as an initial pricing rule. After launch the price is set by the market and may fall far below your cost; you may lose everything.
 > 3. **Use of funds**: 80% of the BEM raised goes to liquidity (LP permanently locked), 10% to the project fund multisig, 10% to referral rebates.

@@ -53,7 +53,7 @@ export function RiskDisclosure({ compact = false }: { compact?: boolean }) {
       <details className="rounded-lg border border-border p-3" open={!compact}>
         <summary className="cursor-pointer text-sm font-medium text-foreground">Risk Disclosure (English)</summary>
         <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-          tapecat is a meme token with no utility and no promise of value or returns. By participating you acknowledge:
+          tapecat is an experimental token with no promised utility, value, or returns. By participating you acknowledge:
         </p>
         <div className="mt-2">
           <List items={EN} sep=": " />

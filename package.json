@@ -2,7 +2,7 @@
   "name": "tapecat",
   "version": "0.10.0",
   "private": true,
-  "description": "tapecat meme token launch on BNB Chain: BEM raise, 1h swap window, dual PancakeSwap V2 pools (design v0.10 / contract design v1.2)",
+  "description": "tapecat tape-out on BNB Chain: BEM raise, 1h swap window, dual PancakeSwap V2 pools. Unofficial TapeOut-ecosystem tasting layer (design v0.10 / contract design v1.2)",
   "license": "MIT",
   "scripts": {
     "compile": "hardhat compile",
