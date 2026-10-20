@@ -6,7 +6,7 @@
 > Do not use a TapeOut HashPort static export, and do not run the verifier on a separate VPS.
 > The keeper is still Gelato plus a self-hosted bot (a long-running off-chain process, not part of this page).
 
-Unrelated to LosstradeAI. Describe the project as a community project, not an official TapeOut product.
+Unofficial community tasting layer in the TapeOut ecosystem. Not an official TapeOut product.
 
 ### Why one Vercel project
 
