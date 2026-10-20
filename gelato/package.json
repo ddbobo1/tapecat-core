@@ -1,0 +1,13 @@
+{
+  "name": "tapecat-gelato",
+  "private": true,
+  "scripts": {
+    "test": "w3f test web3-functions/tapecat-keeper/index.ts --logs --chain-id=56",
+    "deploy": "w3f deploy web3-functions/tapecat-keeper/index.ts"
+  },
+  "dependencies": {
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@gelatonetwork/web3-functions-sdk": "^2.4.4"
+  }
+}

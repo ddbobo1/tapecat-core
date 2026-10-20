@@ -1,0 +1,33 @@
+{
+  "network": "bsc",
+  "chainId": 56,
+  "sale": "0xeEA60F495A5824C370A7d1076Bf68D61Ca9f14d4",
+  "token": "0x103DC6D4a22c196F13F7c5d3E70BD3912841473F",
+  "deployBlock": 128508309,
+  "saleSaltText": "tapecat-2026-11",
+  "config": {
+    "bem": "0x5ce033B2bFCa3Af30b3e8C8457DeaF776A8b695a",
+    "wbnb": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "usdt": "0x55d398326f99059fF775485246999027B3197955",
+    "v2Factory": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+    "v3Factory": "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+    "v3Router": "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4",
+    "quoter": "0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997",
+    "kyberRouter": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
+    "oneInchRouter": "0x111111125421cA6dc452d289314280a0f8842A65",
+    "feeBemUsdt": 10000,
+    "feeUsdtWbnb": 100,
+    "feeBemWbnb": 10000,
+    "start": 1795176000,
+    "endTime": 1795435200,
+    "owner": "0x67111b9070B97424db95e723302ac4E313714e3A",
+    "signer": "0xd3324728f82e6250053709f99c07b284cbb28ff7",
+    "officialReferrer": "0x13a65fdc36bb93b4e4de37e02edc6cbe347494f3",
+    "fundWallet": "0xa2b302b30c7948e0a5d407cc266e2d992e1825a3",
+    "taxReceiver": "0x8424d71ea9667ce745ee15102e81ec70afebc70c",
+    "saleSalt": "0x9363f795ed5d22b329b63fb8226ad60836b1b04a3c6a0cb940819d903a3878b9",
+    "initialKeepers": [
+      "0x4562E16770A91c609417CC68C59c35e7250b2145"
+    ]
+  }
+}

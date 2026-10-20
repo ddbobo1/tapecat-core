@@ -1,0 +1,43 @@
+{
+  "name": "tapecat",
+  "version": "0.10.0",
+  "private": true,
+  "description": "tapecat meme token launch on BNB Chain: BEM raise, 1h swap window, dual PancakeSwap V2 pools (design v0.10 / contract design v1.2)",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:verifier": "DOTENV_CONFIG_PATH=/nonexistent node --import tsx --test verifier/test/*.test.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "deploy:bsc": "hardhat run scripts/deploy.ts --network bsc",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network bscTestnet",
+    "oracle:prepare": "hardhat run scripts/prepare-oracles.ts --network bsc",
+    "allowlist:export": "tsx scripts/export-allowlist.ts",
+    "verifier": "tsx verifier/src/server.ts",
+    "keeper": "tsx keeper/src/bot.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.8",
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "viem": "^2.57.7",
+    "@libsql/client": "^0.14.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@types/cookie-session": "^2.0.49",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "hardhat": "^2.29.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "@vercel/node": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
